@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-org-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointOrgChart/SharePointOrgChartWebPart.js",
+          "manifest": "./src/webparts/sharePointOrgChart/SharePointOrgChartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointOrgChartWebPartStrings": "lib/webparts/sharePointOrgChart/loc/{locale}.js"
+  }
+}
